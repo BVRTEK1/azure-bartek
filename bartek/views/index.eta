@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Bartosz Rozdolski</title>
+    </head>
+
+    <body>
+        <div style="text-align: center;">
+            <h1>Message board:</h1>
+            <% it.messages.forEach(function(message){ %>
+                <p><%= message.message %></p>
+            <% }) %>
+            <a href="/post">Post a message</a>
+        </div>
+    </body>
+</html>

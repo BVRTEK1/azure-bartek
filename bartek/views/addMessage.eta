@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Bartosz Rozdolski</title>
+    </head>
+
+    <body>
+        <form action="" method="post" >
+              <label for="name">Message: </label>
+              <input type="text" name="message" id="message" required>
+              <input type="submit" value="Post">
+          </form>
+          
+    </body>
+</html>
